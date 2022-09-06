@@ -1,4 +1,32 @@
 import React from 'react'
+import Shop_One from '../assets/img/shop/Shop_One.jpg'
+import Shop_Two from '../assets/img/shop/Shop_Two.jpg'
+import Shop_Three from '../assets/img/shop/Shop_Three.jpg'
+import Shop_Four from '../assets/img/shop/Shop_Four.jpg'
+import Shop_Five from '../assets/img/shop/Shop_Five.jpg'
+import Shop_Six from '../assets/img/shop/Shop_Six.jpg'
+import Shop_Seven from '../assets/img/shop/Shop_Seven.jpg'
+import Shop_Eight from '../assets/img/shop/Shop_Eight.jpg'
+import Shop_Nine from '../assets/img/shop/Shop_Nine.jpg'
+import Shop_Ten from '../assets/img/shop/Shop_Ten.jpg'
+import Shop_Eleven from '../assets/img/shop/Shop_Eleven.jpg'
+import Shop_Tweleve from '../assets/img/shop/Shop_Twelve.jpg'
+import Shop_Thirteen from '../assets/img/shop/Shop_Thirteen.jpg'
+import Shop_Fourteen from '../assets/img/shop/Shop_Fourteen.jpg'
+import Shop_Fifteen from '../assets/img/shop/Shop_Fifteen.jpg'
+import Shop_Sixteen from '../assets/img/shop/Shop_Sixteen.jpg'
+import Shop_Seventeen from '../assets/img/shop/Shop_Seventeen.jpg'
+import Shop_Eighteen from '../assets/img/shop/Shop_Eighteen.jpg'
+import Shop_Nineteen from '../assets/img/shop/Shop_Nineteen.jpg'
+import Shop_Twenty from '../assets/img/shop/Shop_Twenty.jpg'
+import Shop_TwentyOne from '../assets/img/shop/Shop_TwentyOne.jpg'
+import Shop_TwentyTwo from '../assets/img/shop/Shop_TwentyTwo.jpg'
+import Shop_TwentyThree from '../assets/img/shop/Shop_TwentyThree.jpg'
+import Shop_TwentyFour from '../assets/img/shop/Shop_TwentyFour.jpg'
+import Shop_TwentyFive from '../assets/img/shop/Shop_TwentyFive.jpg'
+import Shop_TwentySix from '../assets/img/shop/Shop_TwentySix.jpg'
+import ProductDetails from '../components/productsDetails'
+import ProductsDetails from '../components/productsDetails'
 const shopDetails = () => {
   return (
     <>
@@ -18,8 +46,21 @@ const shopDetails = () => {
             <p>Here you can check out our new products with fair price on rymo.</p>
           </div>
           <div className="row mx-auto container">
-            <div onclick="window.location.href='products.html';" className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/1.jpg" alt="" />
+            <div  className="product text-center col-lg-3 col-md-4 col-12">
+              <img className="img-fluid mb-3" src={Shop_One} alt="" />
+              <div className="star">
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+              </div>
+              <h5 className="p-name">Sport Boots</h5>
+              <h4 className="p-price">$92.00</h4>
+              <button onClick={ProductsDetails} className="buy-btn">Buy Now</button>
+            </div>
+            <div className="product text-center col-lg-3 col-md-4 col-12">
+              <img className="img-fluid mb-3" src={Shop_Two} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -32,7 +73,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/2.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Three} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -45,7 +86,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/3.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Six} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -58,7 +99,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/6.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Five} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -71,7 +112,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/5.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Four} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -84,7 +125,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/4.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Seven} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -97,7 +138,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/7.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Nine} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -110,7 +151,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/9.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Eight} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -123,7 +164,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/8.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_TwentyTwo} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -136,7 +177,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/22.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Eleven} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -149,7 +190,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/11.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Tweleve} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -162,7 +203,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/12.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Thirteen} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -175,7 +216,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/13.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Fourteen} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -188,7 +229,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/14.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Fifteen} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -201,7 +242,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/15.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Sixteen} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -214,7 +255,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/16.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Seventeen} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -227,7 +268,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/17.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Eighteen} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -240,7 +281,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/18.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Nineteen} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
@@ -253,20 +294,7 @@ const shopDetails = () => {
               <button className="buy-btn">Buy Now</button>
             </div>
             <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/19.jpg" alt="" />
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
-              <h5 className="p-name">Sport Boots</h5>
-              <h4 className="p-price">$92.00</h4>
-              <button className="buy-btn">Buy Now</button>
-            </div>
-            <div className="product text-center col-lg-3 col-md-4 col-12">
-              <img className="img-fluid mb-3" src="img/shop/20.jpg" alt="" />
+              <img className="img-fluid mb-3" src={Shop_Twenty} alt="" />
               <div className="star">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
